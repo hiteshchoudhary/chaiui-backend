@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "components",
+  "info": {
+    "singularName": "component",
+    "pluralName": "components",
+    "displayName": "Component"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "html_code": {
+      "type": "richtext"
+    },
+    "jsx_code": {
+      "type": "richtext"
+    },
+    "component_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::component-category.component-category"
+    }
+  }
+}

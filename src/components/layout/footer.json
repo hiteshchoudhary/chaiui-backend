@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "nav_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.nav-links"
+    },
+    "copyright_text": {
+      "type": "string"
+    }
+  }
+}

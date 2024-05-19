@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "arrowUp"
+  },
+  "options": {},
+  "attributes": {
+    "seo_metadata": {
+      "type": "json"
+    },
+    "seo_title": {
+      "type": "string"
+    },
+    "seo_description": {
+      "type": "string"
+    },
+    "og_image": {
+      "type": "string"
+    }
+  }
+}

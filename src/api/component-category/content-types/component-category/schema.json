@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "component_categories",
+  "info": {
+    "singularName": "component-category",
+    "pluralName": "component-categories",
+    "displayName": "Component Category"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
