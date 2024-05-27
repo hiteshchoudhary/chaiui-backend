@@ -29,4 +29,19 @@ module.exports = createCoreController("api::project.project", ({ strapi }) => ({
 
     return result;
   },
+  async findOne(ctx) {
+    await this.validateQuery(ctx);
+
+    ctx.query = {
+      populate: {
+        pages: {
+          sort: ["name"],
+        },
+      },
+    };
+
+    const result = await super.findOne(ctx);
+
+    return result;
+  },
 }));
